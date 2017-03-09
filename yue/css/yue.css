@@ -1,0 +1,195 @@
+@import url(reset.css);
+a {
+  text-decoration: none;
+}
+.box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.boxx {
+  -webkit-box-orient: horizontal;
+}
+.box_1 {
+  -webkit-box-flex: 1;
+}
+.more {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#wrap header {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap header .top {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap header .top img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap header .top .swiper-slide {
+  position: relative;
+}
+#wrap header .top .swiper-slide .top_ {
+  position: absolute;
+  color: #fff;
+  font-size: 2rem;
+  width: auto;
+  height: 4rem;
+  background: #4d1717;
+  line-height: 4rem;
+  opacity: 0.7;
+  left: 30%;
+  top: 1.5rem;
+  border-radius: 50px ;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+#wrap header .top .swiper-slide .top_ span {
+  padding-right: 3rem;
+  box-sizing: border-box;
+}
+#wrap section {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  overflow-y: auto ;
+}
+#wrap section > div {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap section::div {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap section::div:nth-child(1) {
+  display: block;
+}
+#wrap section::webkit-scrollbar {
+  width: 0;
+}
+#wrap section .s1 {
+  width: 100%;
+  height: auto;
+  background: #f4f4f4;
+  padding: 1.5rem 0 1.4rem 0;
+  box-sizing: border-box;
+}
+#wrap section .s1 p {
+  padding: 1rem 0 1rem 1.5rem;
+  margin-left: 3rem;
+  box-sizing: border-box;
+  background: url(../img/a-1.jpg) no-repeat left center;
+}
+#wrap section .s1 .s1_ {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+}
+#wrap section .s1 .s1_ .s1_1 {
+  text-align: center;
+  -webkit-box-flex: 1;
+  margin: 0 0.5rem;
+}
+#wrap section .s1 .s1_ .s1_1 dl {
+  padding: 1rem;
+  box-sizing: border-box;
+  background: #47d1f5 ;
+  border-radius: 5px ;
+  color: #fff;
+}
+#wrap section .s1 .ss {
+  padding-top: 1rem;
+}
+#wrap section .s2 {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+}
+#wrap section .s2 p {
+  padding: 1.5rem 0;
+  box-sizing: border-box;
+  font-size: 2rem;
+  color: #000;
+}
+#wrap section .s2 p span {
+  display: inline-block;
+  background: #fe4b4e;
+  padding: 0.1rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+#wrap section .s2 .s2_ {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+#wrap section .s2 .s2_ dl {
+  -webkit-box-flex: 1;
+  color: #000;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+#wrap section .s2 .s2_ dl img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap footer {
+  width: 100%;
+  height: 8rem;
+  background: #f4f4f4;
+  border-top: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+}
+#wrap footer dl {
+  color: #ccc;
+  padding-top: 1.2rem;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-box-flex: 1;
+}
+#wrap footer dl img {
+  width: 3.6rem;
+  height: auto;
+  background: none;
+}

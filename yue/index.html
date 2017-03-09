@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/yue.css"/>
+  <link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css"/>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   		});
+   		
+    </script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div class="top">
+				   <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/z_02.png"/><div class="top_">
+					<span>绑定机顶盒</span><strong>∨</strong>
+				</div></div>
+            <div class="swiper-slide"><img src="img/z_02.png"/><div class="top_">
+					<span>绑定机顶盒</span><strong>∨</strong>
+				</div></div>
+            <div class="swiper-slide"><img src="img/z_02.png"/><div class="top_">
+					<span>绑定机顶盒</span><strong>∨</strong>
+				</div></div>
+            <div class="swiper-slide"><img src="img/z_02.png"/><div class="top_">
+					<span>绑定机顶盒</span><strong>∨</strong>
+				</div></div>
+            <div class="swiper-slide"><img src="img/z_02.png"/><div class="top_">
+					<span>绑定机顶盒</span><strong>∨</strong>
+				</div>
+            </div>
+        </div>
+			</div>
+			</div>
+		</header>
+	<section>
+		<div class="one">
+			<div class="s1">
+			<p>搜索项要看的数据库后家</p>
+			<div class="s1_">
+				  <div class="s1_1">
+				  	<dl>
+				  		<dt><img src="img/z_05.png"/></dt>
+				  		<dd>㡊就</dd>
+				  	</dl>
+				  </div>
+				    <div class="s1_1">
+				  	<dl>
+				  		<dt><img src="img/z_05.png"/></dt>
+				  		<dd>㡊就</dd>
+				  	</dl>
+				  </div>
+				    <div class="s1_1">
+				  	<dl>
+				  		<dt><img src="img/z_05.png"/></dt>
+				  		<dd>㡊就</dd>
+				  	</dl>
+				  </div>
+				    <div class="s1_1">
+				  	<dl>
+				  		<dt><img src="img/z_05.png"/></dt>
+				  		<dd>㡊就</dd>
+				  	</dl>
+				  </div>
+			</div>
+					<div class="s1_ ss">
+				  <div class="s1_1">
+				  	<dl>
+				  		<dt><img src="img/z_05.png"/></dt>
+				  		<dd>㡊就</dd>
+				  	</dl>
+				  </div>
+				    <div class="s1_1">
+				  	<dl>
+				  		<dt><img src="img/z_05.png"/></dt>
+				  		<dd>㡊就</dd>
+				  	</dl>
+				  </div>
+				    <div class="s1_1">
+				  	<dl>
+				  		<dt><img src="img/z_05.png"/></dt>
+				  		<dd>㡊就</dd>
+				  	</dl>
+				  </div>
+				    <div class="s1_1">
+				  	<dl>
+				  		<dt><img src="img/z_05.png"/></dt>
+				  		<dd>㡊就</dd>
+				  	</dl>
+				  </div>
+			</div>
+		</div>
+		<div class="s2">
+			<p>将抗和圣 <span>直播中</span></p>
+			<div class="s2_">
+				<dl>
+					<dt><img src="img/z_12.png"/></dt>
+					<dd>将抗和城管局开</dd>
+				</dl>
+					<dl>
+					<dt><img src="img/z_12.png"/></dt>
+					<dd>将抗和城管局开</dd>
+				</dl>
+			</div>
+		</div>
+		</div>
+		<div>2222</div>
+	<div>333</div>
+	<div >444</div>
+	</section>
+	<footer>
+		<dl>
+			<dt><img src="img/z_16.png"/></dt>
+			<dd>和基督教</dd>
+		</dl>
+		<dl>
+			<dt><img src="img/z_16.png"/></dt>
+			<dd>和基督教</dd>
+		</dl>
+		<dl>
+			<dt><img src="img/z_16.png"/></dt>
+			<dd>和基督教</dd>
+		</dl>
+		<dl>
+			<dt><img src="img/z_16.png"/></dt>
+			<dd>和基督教</dd>
+		</dl>
+	</footer>
+	</div>
+</body>
+<script src="" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	  var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false,
+   });
+   $(function(){
+   	$("footer dl").click(function(){
+   		 var $down=$(this).index();
+	          $('section>div').hide().eq($down).show();
+	          $('header>div').hide().eq($down).show();
+//	           $('header>div').hide().eq($down).show();
+   	})
+  })
+</script>
+</html>

@@ -1,0 +1,207 @@
+@import url(reset.css);
+
+a{
+    
+        text-decoration: none;
+        
+    }
+    
+    .box{
+        
+            display: -webkit-box;
+            
+                -webkit-box-orient: vertical;
+                
+            }
+            
+            .boxx{
+                
+                    -webkit-box-orient:horizontal;
+                    
+                }
+                
+                .box_1{
+                    
+                        -webkit-box-flex: 1;
+                        
+                    }
+                    
+                    .more {
+                        
+                            overflow: hidden; //溢出隐藏
+                            
+                                white-space: nowrap; //溢出变三点
+                                
+                                    text-overflow: ellipsis; //文字溢出隐藏
+                                    
+                                }
+                                
+                                //相对定位
+                                
+                                .r{
+                                    
+                                        position:relative;
+                                        
+                                    }
+                                    
+                                    //绝对定位
+                                    
+                                    .a{
+                                        
+                                            position: absolute;
+                                            
+                                        }
+                                        
+                                        .whb(@w,@h,@b){
+                                            
+                                                width:@w;
+                                                
+                                                    height: @h;
+                                                    
+                                                        background:@b;
+                                                        
+                                                    }
+                                                    
+                                                    html{
+                                                        
+                                                            font-size: 62.5%;
+                                                            
+                                                        }
+
+html,body,#wrap{
+    .whb(100%,100%,none);
+}
+#wrap{
+    .box;
+    header{
+        .whb(100%,auto,none);
+        .top{
+           .r;
+             .whb(100%,auto,none);
+             img{
+                 .whb(100%,auto,none);
+            
+             }
+           .swiper-slide{
+               .r;
+                 .top_{
+                     .a;
+                     color: #fff;
+                     font-size: 2rem;
+                     .whb(auto,4rem,#4d1717);
+                     line-height: 4rem;
+                     opacity: 0.7;
+                     left:30%;
+                     top: 1.5rem;
+                     border-radius:50px ;
+                     padding: 0 2rem;
+                     box-sizing: border-box;
+                     span{
+                         padding-right: 3rem;
+                         box-sizing: border-box;
+                     }
+                 }
+           }  
+        }   
+        
+        
+    }
+    section{
+       .box_1;
+       .box;
+       .boxx;
+       &>div{
+           .whb(100%,auto,none);
+       }
+       &::div{
+           .whb(100%,auto,none);
+           &:nth-child(1){
+               display: block;
+           }
+       }
+       overflow: hidden;
+       overflow-y:auto ;
+       &::webkit-scrollbar{
+           width: 0;                                                                                                                                   
+       }
+       .s1{
+             .whb(100%,auto,#f4f4f4);
+            padding: 1.5rem 0 1.4rem 0;
+            box-sizing: border-box;
+            p{
+              padding: 1rem 0 1rem 1.5rem;
+              margin-left: 3rem;
+              box-sizing: border-box; 
+              background: url(../img/a-1.jpg)no-repeat left center;
+            }
+            .s1_{
+                 .whb(100%,auto,none);
+                 .box;
+                 .boxx;
+                 .s1_1{
+                     text-align: center;
+                     .box_1;
+                     margin:0 0.5rem;
+                   dl{
+                       padding: 1rem;
+                       box-sizing: border-box;
+                       background:#47d1f5 ;
+                        border-radius:5px ;
+                        color: #fff;
+                   }
+                 }
+            }
+            .ss{
+                padding-top: 1rem;
+            }
+       }
+       .s2{
+            .whb(100%,auto,none);
+            padding: 0 1.5rem;
+            box-sizing: border-box;
+            p{
+                padding: 1.5rem 0;
+                box-sizing: border-box;
+                font-size: 2rem;
+                color: #000;
+                span{
+                    display: inline-block;
+                    background: #fe4b4e;
+                    padding: 0.1rem;
+                    box-sizing: border-box;
+                    color:#fff;
+                }
+            }
+            .s2_{
+                .box;
+                .boxx;
+                text-align: center;
+                dl{
+                    .box_1;
+                    color: #000;
+                    padding: 0 0.5rem;
+                    box-sizing: border-box;
+                    img{
+                        .whb(100%,auto,none);
+                    }
+                }
+            }
+       }
+    }
+    footer{
+        .whb(100%,8rem,#f4f4f4);
+        border-top:1px solid #ccc;
+        .box;
+        .boxx;
+        dl{
+            color: #ccc;
+            padding-top: 1.2rem;
+            box-sizing: border-box;
+            text-align: center;
+            .box_1;
+            img{
+                .whb(3.6rem,auto,none);
+            }
+        }
+    }
+}
