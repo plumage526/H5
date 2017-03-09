@@ -1,0 +1,215 @@
+@import url(reset.css);
+a {
+  text-decoration: none;
+}
+.box {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.boxx {
+  -webkit-box-orient: horizontal;
+}
+.box_1 {
+  -webkit-box-flex: 1;
+}
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+  
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#wrap header {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.6rem;
+  background: #ff4f00;
+  color: #fff;
+}
+#wrap header .head {
+  -webkit-box-flex: 1;
+  text-align: center;
+  position: relative;
+}
+#wrap header .head .img {
+  position: absolute;
+  left: 0.3rem;
+  top: 1.3rem;
+}
+#wrap header .head .head1 {
+  width: 100%;
+  height: 2.5rem;
+  background: #d42d00;
+  margin: 0.5rem 0;
+  box-sizing: border-box;
+}
+#wrap header .head .head1 input {
+  width: 90%;
+  height: 100%;
+  background: #d42d00;
+  padding-left: 1rem;
+  border: 1px solid #d42d00;
+  box-sizing: border-box;
+  background: url(../img/aa1_05.jpg) no-repeat right center;
+}
+#wrap header .dl {
+  padding-top: 0.7rem;
+  box-sizing: border-box;
+}
+#wrap header dl {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+#wrap .lun {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap .lun img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #ededed;
+}
+#wrap section .s {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+#wrap section .s .se {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#wrap section .s .se .se_ {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+#wrap section .s .se .se_ dl {
+  -webkit-box-flex: 1;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+#wrap section .s .sec {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+}
+#wrap section .s .sec .sec_ {
+  border-right: 1px solid #ccc;
+}
+#wrap section .s .sec .sec_ img {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+#wrap section .s .sec .sec_1 {
+  -webkit-box-flex: 1;
+}
+#wrap section .s .sec .sec_1 .p {
+  margin-top: 0.6rem;
+  box-sizing: border-box;
+}
+#wrap section .s .sec .sec_1 p {
+  margin-left: 1rem;
+  padding-left: 2.5rem;
+  box-sizing: border-box;
+  background: url(../img/we_18.jpg) no-repeat left center;
+  line-height: 2rem;
+}
+#wrap section .sect {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap section .sect .sect_ {
+  margin-top: 0.2rem;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+#wrap section .sect .sect_ .sect_1 {
+  -webkit-box-flex: 1;
+}
+#wrap section .sect .sect_ img {
+  width: 100%;
+  height: auto;
+  background: none;
+  float: left;
+}
+#wrap footer {
+  width: 100%;
+  height: 4rem;
+  background: #f9f6f5;
+  border-top: 1px solid #ccc ;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+#wrap footer dl {
+  text-align: center;
+  padding-top: 0.8rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+}
+/*#wrap footer dl:hover {
+  background: #ff3d5a;
+  color: #fba37b;
+}*/
+.two{
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: none;
+}
+.three{
+	position: relative;
+	width: 100%;
+	height: auto;
+		display: none;
+}
+.four{
+	position: relative;
+	width: 100%;
+	height: auto;
+		display: none;
+}
+.five{
+	position: relative;
+	width: 100%;
+	height: auto;
+		display: none;
+}
+
